@@ -1,0 +1,17 @@
+/**
+ * Created by 17-1336 on 5/11/22.
+ */
+module.exports = (sequelize, Sequelize) => {
+    const User = sequelize.define("user", {
+        username: {
+            type: Sequelize.STRING
+        },
+        email: {
+            type: Sequelize.STRING
+        },
+        password: {
+            type: Sequelize.STRING
+        }
+    });
+    return User;
+};
