@@ -44,7 +44,7 @@ console.log('Mysql Connected with App...');
  * @return response()
  */
 app.get('/api/users',(req, res) => {
-    let sqlQuery = "SELECT * FROM users";
+    let sqlQuery = "SELECT * FROM user";
 
 let query = conn.query(sqlQuery, (err, results) => {
     if(err) throw err;
@@ -58,7 +58,7 @@ res.send(apiResponse(results));
  * @return response()
  */
 app.get('/api/users/:id',(req, res) => {
-    let sqlQuery = "SELECT * FROM users WHERE id=" + req.params.id;
+    let sqlQuery = "SELECT * FROM user WHERE id=" + req.params.id;
 
 let query = conn.query(sqlQuery, (err, results) => {
     if(err) throw err;
@@ -74,7 +74,7 @@ res.send(apiResponse(results));
 app.post('/api/users',(req, res) => {
     let data = {fname: req.body.firstname,lname: req.body.lastname,addr:req.body.address,postcode:req.body.postcode,phone:req.body.phoneNumber,uname:req.body.username,email:req.body.email,pwd:req.body.password};
 
-let sqlQuery = "INSERT INTO users SET ?";
+let sqlQuery = "INSERT INTO user SET ?";
 
 let query = conn.query(sqlQuery, data,(err, results) => {
     if(err) throw err;
@@ -89,7 +89,7 @@ res.send(apiResponse(results));
  */
 
 app.put('/api/users/:id',(req, res) => {
-    let sqlQuery = "UPDATE users SET fname='"+req.body.firstname+"', lname='"+req.body.lastname+"', addr='"+req.body.address+"', postcode='"+req.body.postcode+"', phone='"+req.body.phoneNumber+"', uname='"+req.body.username+"', email='"+req.body.email+"', pwd='"+req.body.password+"' WHERE id="+req.params.id;
+    let sqlQuery = "UPDATE user SET fname='"+req.body.firstname+"', lname='"+req.body.lastname+"', addr='"+req.body.address+"', postcode='"+req.body.postcode+"', phone='"+req.body.phoneNumber+"', uname='"+req.body.username+"', email='"+req.body.email+"', pwd='"+req.body.password+"' WHERE id="+req.params.id;
 
 let query = conn.query(sqlQuery, (err, results) => {
     if(err) throw err;
@@ -105,7 +105,7 @@ res.send(apiResponse(results));
  * @return response()
  */
 app.delete('/api/users/:id',(req, res) => {
-    let sqlQuery = "DELETE FROM users WHERE id="+req.params.id+"";
+    let sqlQuery = "DELETE FROM user WHERE id="+req.params.id+"";
 
 let query = conn.query(sqlQuery, (err, results) => {
     if(err) throw err;
@@ -113,19 +113,24 @@ res.send(apiResponse(results));
 });
 });
 
-
-
-/**
- * Get multiple Item
- *
- * @return response()
- */
-app.get('/api/users/{"ids": []}',(req, res) => {
-    const names = req.query.ids.split(';');
-    console.log(names);
-    res.send({ text: 'Hello World'+names });
+//
+//
+///**
+// * Get multiple Item
+// *
+// * @return response()
+// */
+//app.post('/api/users/}',(req, res) => {
+//    var username = req.query.uname;
+//    let sqlQuery = "SELECT * FROM user WHERE id in (?)";
+//
+//
+//let query = conn.query(sqlQuery, (err, results) => {
+//    if(err) throw err;
+//res.send(apiResponse(results));
 //});
-});
+////});
+//});
 
 
 

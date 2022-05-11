@@ -26,7 +26,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="3" selection-start="3165" selection-end="3165" vertical-scroll-proportion="0.6699029" vertical-offset="1849" max-vertical-offset="2669">
+            <state line="130" column="5" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.5165877" vertical-offset="1958" max-vertical-offset="2754">
               <folding />
             </state>
           </provider>
@@ -43,9 +43,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/migration.js" />
-        <option value="$PROJECT_DIR$/node_modules/mysql-migrations/migration.js" />
-        <option value="$PROJECT_DIR$/node_modules/mysql-migrations/migrations/1652197748534_create_table_users.js" />
-        <option value="$PROJECT_DIR$/node_modules/mysql-migrations/migrations/1652197458686_create_table_users.js" />
         <option value="$PROJECT_DIR$/node-js-jwt-auth/app/db.config.js" />
         <option value="$PROJECT_DIR$/node-js-jwt-auth/app/auth.config.js" />
         <option value="$PROJECT_DIR$/node-js-jwt-auth/app/config/db.config.js" />
@@ -62,6 +59,9 @@
         <option value="$PROJECT_DIR$/node-js-jwt-auth/app/middleware/authJwt.js" />
         <option value="$PROJECT_DIR$/node-js-jwt-auth/app/routes/auth.routes.js" />
         <option value="$PROJECT_DIR$/node-js-jwt-auth/app/controllers/auth.controller.js" />
+        <option value="$PROJECT_DIR$/node_modules/mysql-migrations/migrations/1652197458686_create_table_users.js" />
+        <option value="$PROJECT_DIR$/node_modules/mysql-migrations/migrations/1652197748534_create_table_users.js" />
+        <option value="$PROJECT_DIR$/node_modules/mysql-migrations/migration.js" />
         <option value="$PROJECT_DIR$/api/app.js" />
       </list>
     </option>
@@ -164,11 +164,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26785713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20941558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20996979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25528702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -316,21 +316,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mysql-migrations/migrations/1652197458686_create_table_users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="226" selection-end="226" vertical-scroll-proportion="0.18411553" vertical-offset="0" max-vertical-offset="277" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mysql-migrations/migrations/1652197748534_create_table_users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="177" selection-end="177" vertical-scroll-proportion="0.12274368" vertical-offset="0" max-vertical-offset="277" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mysql-migrations/migration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.7034483" vertical-offset="0" max-vertical-offset="306" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node-js-jwt-auth/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="21" selection-start="273" selection-end="273" vertical-scroll-proportion="0.46896553" vertical-offset="0" max-vertical-offset="435" />
@@ -427,9 +412,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql-migrations/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="436">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql-migrations/migrations/1652197748534_create_table_users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="1" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql-migrations/migrations/1652197458686_create_table_users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="224" selection-end="224" vertical-scroll-proportion="0.120567374" vertical-offset="0" max-vertical-offset="423">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql-migrations/migration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="159" selection-end="159" vertical-scroll-proportion="0.19495413" vertical-offset="0" max-vertical-offset="436">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="3" selection-start="3165" selection-end="3165" vertical-scroll-proportion="0.6699029" vertical-offset="1849" max-vertical-offset="2669">
+        <state line="130" column="5" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.5165877" vertical-offset="1958" max-vertical-offset="2754">
           <folding />
         </state>
       </provider>
